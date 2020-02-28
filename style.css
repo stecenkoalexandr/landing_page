@@ -1,117 +1,25 @@
-body{
+body {
+    background: url(img/photo.jpg) no-repeat center top/cover;
+    background-color: #cccccc;
     font-family:Arial, sans-serif;
     padding:0;
     margin:0;
-    color:#222:
+}
+.col-8, .col-xl-2, .col-md-5 {
+    background: blue;
+    border-radius: 10px;
+    margin: 10px;
     
-}
-
-.clearfix:after{
-    content:'';
-    display: table;
-    width:100%;
-    clear:both;
-}
-
-
-div {
-    box-sizing: border-box;
-}
-
-
-header {
-    background: url(/img/first-bg.jpg) no-repeat center top/cover;
-    height: 600px;
-    padding-bottom: 160px;
-}
-.container {
-    width: 930px;
-    margin: 0 auto;
-}
-
-.logo {
-    margin-top:41px;
-    float:left;
-
-}
-
-.test  {
-    width:300px;
-    height:100px;
-    background:#fff;
-    padding: 10px
-}
-
-nav {
-    float:right;
-    margin-top: 50px;
-}
-.menu {
-    padding:0;
-    margin:0;
-    display:block;
-}
-
-.menu li {
-    float:left;
-    display:block;
-    margin-right: 14px;
-    font-size: 14px;
-}
-
-.menu li a {
-    color: #fff;
-    text-decoration: none;
-    text-transform:uppercase;
-}
-
-.titles_first {
-    font-size: 40px;
-    color:#fff;
-    text-transform:uppercase;
-    text-align:center;
-    margin-top:180px;
 }
 
 h1 {
-    font-size: 70px;
-    color:#fff;
-    text-transform:uppercase;
-    text-align:center;
-    margin:15px;
+    font-size: 1.25rem;
 }
 
-.button {
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
-    background: #fed136;
-    color:#484543;
-    border-radius: 3px;
-    display:block;
-    width:240px;
-    padding:20px 0;
-    margin: 0 auto ;
-    margin-top: 30px ;
+@media (min-width: 320px) {
+    h1 { font-size: 1.25  /* волшебное значение от 1.25 rem до 2.5 rem */; }
+  }
+@media (min-width: 960px) {
+    h1 { font-size: 2.5rem; }
+  }
 
-}
-.title {
-    padding-top:115px;
-    
-}
-.title h2 {
-    font-size: 40px;
-    font-weight:bold;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0;    
-
-}
-.title p {
-    color:#777;
-    text-align: center;
-    font-size: 16px;
-    margin-top:5px;
-
-}
