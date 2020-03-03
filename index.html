@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Вказуємо кодування -->
     <meta charset="UTF-8">
     <!-- Настройка viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Подключаем Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+    <!-- Вказуємо тайтл або назву самої вкладки сайту  -->
     <title>Hello my Dear Students</title>
+    <!-- Підключаємо самі стилі або красу до сайту -->
     <link rel="stylesheet" href="style.css" >
     <!-- Этот тег позволяет указать краткое описание страницы content до 160 символов -->
     <meta name="description" content="Описание страницы" />
+    <!-- Багато пошукових систем відмовились від даної речі, не більше 16 слів мабуть ? -->
     <meta name = "keywords" content = "ключевые слова через запятую">
+    
+    <!-- Вказуємо поведінку пошуковиї роботів  -->
     <meta name = "robots" content = "index, follow">
-    <!-- <meta http-equiv="refresh" content="5; url=http://example.com/"> -->
+        
+    <!-- <meta http-equiv="refresh" content="5; url=http://example.com/">  Перехід на заданий сайт через заданий час-->
+
+    <!-- Підключаємо шрифти але їх ще в стилях потрібно підключити -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <!-- Підключаємо фонт авсом-різні векторні іконки та картинки щоб спростити добавлення його на сайт і т.д. -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Підключаємо сам бутстрап  -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="row">
-                <div class="col-8 col-xl-2 col-md-5 ">1</div> 
-                <div class="col-8 col-xl-2 col-md-5">2</div>
-                <div class="col-8 col-xl-2 col-md-5">3</div>
-                <div class="col-8 col-xl-2 col-md-5">4</div>
+                <div class="col-8 col-xl-2 col-md-5 "><a href="#" class="link">Головна</a></div> 
+                <div class="col-8 col-xl-2 col-md-5"><a href="#" class="link">Курси</a></div>
+                <div class="col-8 col-xl-2 col-md-5"><a href="#" class="link">Мої учні</a></div>
+                <div class="col-8 col-xl-2 col-md-5"><a href="#" class="link">Контакти</a></div>
               
             </div>
          </div>
     </header>
 
-
+    <i class="fas fa-thumbs-up fa-5x"></i>
 <footer>
     Соціальні мережі та  контакти 
+
+
 </footer>
+<!-- Подключаем jQuery в кінці для пришвидшення завантаження -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+<!-- Подключаем Bootstrap JS в кінці для пришвидшення завантаження -->    
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- Підключаємо фонт авсом-різні векторні іконки та картинки щоб спростити добавлення його на сайт і т.д. -->
+<script src="https://kit.fontawesome.com/f3d1afc6d3.js" crossorigin="anonymous"></script>
 
 
-<!-- Подключаем jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-</script>    
-    <!-- Подключаем Bootstrap JS -->    
-    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

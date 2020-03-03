@@ -1,16 +1,31 @@
+/* Спецификация базовых частей*/
 body {
     background: url(img/photo.jpg) no-repeat center top/cover;
     background-color: #cccccc;
-    font-family:Arial, sans-serif;
-    padding:0;
-    margin:0;
+    background-attachment: fixed ;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-size: 15;
+    color: #333;
+    padding:0 auto;
+    margin:0 auto;
 }
+/* Перший Екран */
+
 .col-8, .col-xl-2, .col-md-5 {
     background: blue;
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 10px;
-    
+   
 }
+.link {
+    text-decoration:none;
+    color:#fff;
+    transition: color 0.3s linear;
+}
+.link:hover {
+    color:#444;
+}
+
 
 h1 {
     font-size: 1.25rem;
